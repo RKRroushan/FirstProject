@@ -1,0 +1,422 @@
+      
+	                                          /*Designed and Developed by Roushan*/
+
+
+
+
+
+html,body{
+   margin:0;
+}
+
+/*navbar starts*/
+
+
+.navbar-header{
+	
+	color:#000000;
+}
+
+ .navbar-fixed-top 
+       {
+      background-color: #000000;
+      transition: background-color 300ms linear;
+	  opacity:0.2;
+  
+       }
+
+.topnav li a
+    {
+    
+     color:white;
+     margin: 5px 20px 0px 10px; 
+	 font-weight:800;
+	 
+     }
+.topnav li a:hover
+    {
+     
+	 transition:200ms;  
+     border : 2.5px solid white;
+	 font-weight:bold ;
+	 color:#fff;
+     }
+	 
+.navhead{
+	color:#fff;
+	text-decoration:none;
+	
+}
+.navhead:hover{
+	color:#fff;
+}	 
+	 
+	 /*navbar ends*/
+	 
+
+
+
+.pageHeading
+ {
+	   font-size:30px;
+	   font-weight:bold;
+	   color:#fff;
+	 
+ }   
+#contain1	
+        {
+	    background-image: url("hero_small.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+	    min-height:690px;
+       }
+  
+
+
+.font1{
+  margin-top:300px;
+  font-size:80px;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  color:#fff;
+  box-shadow: 0 -2 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.font1:hover, .font1:focus, .font1:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.font2A{
+ 
+  font-size:20px;
+  color:#fff;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  color:#fff;
+  box-shadow: 0 -2px 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.font2A:hover, .font2A:focus, .font2A:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.font2H{
+ 
+  font-size:20px;
+  color:#fff;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  color:#fff;
+  box-shadow: 0 -2px 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.font2H:hover, .font2H:focus, .font2H:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.font2M{
+ 
+  font-size:20px;
+  color:#fff;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  color:#fff;
+  box-shadow: 0 -2px 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.font2M:hover, .font2M:focus, .font2M:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+.text1{
+    float:left;
+	font-size:22px;
+	color:	#DCDCDC;
+	margin-top:30px;
+	margin-left:90px;	 
+	
+}
+
+.settingImg1{
+	float:right;
+    margin-right:40px;
+	margin-top:30px;
+}
+
+
+.text2{
+    float:left;
+	font-size:15px;
+	color:	#DCDCDC;
+	margin-top:30px;
+	margin-left:60px;	 
+	
+}
+
+.settingImg2{
+	float:right;
+    margin-right:30px;
+	margin-top:30px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.image-section{
+	max-width:1500px;
+	margin:0 auto;
+	padding:6% 2%;
+}
+
+.image-grid{
+	margin:20px 0 0 0;
+	padding:0;
+	list-style:none;
+	display:block;
+	text-align:center;
+	width:100%;
+	
+}
+
+.image-grid:after{
+	clear:both;
+	
+}
+.image-grid:after, .image-box:before{
+	content:"";
+	display:table;
+}
+
+.image-grid li{
+	width:330px;
+	height:300px;
+	display:inline-block;
+	list-style:none;
+	margin:20px;
+}
+	
+.image-box{
+	width:100%;
+	height:77%;
+	position:relative;
+	cursor:pointer;
+	list-style:none;
+    border-radius:10px;
+	-webkit-transition:0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
+	-moz-transition:0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
+	transition:0.3s ease-in-out,transform 0.3s ease-in-out;
+}
+
+.image-box:hover{
+	transform:scale(1.05);
+    list-style:none;
+
+}
+
+.image-img-1{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img1.png');
+}
+.image-img-2{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img2.png');
+}
+.image-img-3{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img3.png');
+}
+.image-img-4{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('imgg4.png');
+}
+.image-img-5{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img5.png');
+}
+.image-img-6{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img6.png');
+}
+.image-img-7{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img7.png');
+}.image-img-8{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img8.png');
+}
+.image-img-9{
+	background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10)),
+	url('img9.png');
+}
+
+ h1{
+	font-family:Arial;
+	color:#fff;
+	font-size:25px;
+	margin:0 30px;
+	padding:100px 0 0 0;
+	line-height:1.5;
+	
+}
+
+.aboutRoom {
+	font-family:'Source Sans pro',sans-serif;
+	color:#fff;
+}
+
+
+.bookHere{
+	background-color:#B0C4DE;
+	color:red;
+	
+}
+
+.VIewMorebtn{
+    background-color: #fff;
+    border-radius:30px;
+    padding:5px 0px 5px 0px;
+	padding-top:10px;
+	text-align:center;
+	border : 2.5px solid #ADD8E6 ;
+	cursor:hand;
+}
+
+.VIewMorebtn:hover {
+    background-color:#DCDCDC;
+    border-radius: 30px;
+   -webkit-transition-duration: 0.7s; 
+    transition-duration: 0.5s;
+}
+	
+	
+}
+
+.font4{
+	font-size:35px;
+	color:#ADD8E6 ;
+	text-align:center;
+	font-weight:bold;
+	cursor:hand;
+	
+}
+.font4:hover{
+	color:	#FF4500;
+	
+}
+
+
+.footer{
+	color:#fff;
+	font-size:15px;
+	
+}
+
+.social ul{
+	 display:flex;
+	 list-style:none;
+	
+}
+.social ul li{
+	list-style:none;
+}
+
+
+
+
+
+.social ul li a  {
+	position:relative;
+	width:35px;
+	height:35px;
+    background:#f1f1f1;
+	display:block;
+	text-align:center;
+	margin:0 10px;
+	border-radius:50%;
+	padding:6px;
+	box-sizing:border-box;
+	text-decoration:none;
+	box-shadow:0 15px 15px rgba(0,0,0,0.3);
+	background:linear-gradiant(0deg,#ddd,#fff);
+	transition:.5s;
+	color:#262626;
+}
+
+.social ul li a:hover{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.social ul li a.fa{
+	width:100%;
+	height:100%;
+	display:block;
+	background:linear-gradiant(0deg,#fff,#ddd);
+	border-radius:50%;
+	line-height:calc(60px - 12px);
+	font-size:27px;
+	color:#262626;
+	transition:.5s;
+}
+.social ul li:nth-child(1) a:hover .fa{
+  color:#3b5998;	
+}
+
+.social ul li:nth-child(2) a:hover .fa{
+  color:#00aced;	
+}
+.social ul li:nth-child(3) a:hover .fa{
+  color:#dd4b39;	
+}
+.social ul li:nth-child(4) a:hover .fa{
+  color:#007bb6;	
+}
+.social ul li:nth-child(5) a:hover .fa{
+  color:#00AFF0;	
+}
+
+
+.Copyright{
+	
+	color:#fff;
+	font-size:16px;
+	text-decoration:none;
+	
+}
+
+.Copyright:hover{
+	text-decoration:none;
+	
+	
+}
