@@ -54,6 +54,7 @@ html,body{
 	 /*navbar ends*/
 	 
 
+/* front page starts*/
 
 
 .pageHeading
@@ -71,7 +72,11 @@ html,body{
         background-position: center;
 	    min-height:690px;
        }
-  
+ 
+
+
+
+/* font section starts*/ 
 
 
 .font1{
@@ -153,10 +158,25 @@ html,body{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+.font4{
+	font-size:35px;
+	color:#ADD8E6 ;
+	text-align:center;
+	font-weight:bold;
+	cursor:hand;
+	
+}
+.font4:hover{
+	color:	#FF4500;
+	
+}
+
+
+/* font section ends*/
 
 
 
-
+/*front page ends*/
 
 .text1{
     float:left;
@@ -190,7 +210,7 @@ html,body{
 }
 
 
-
+/*work strats on grid*/
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
@@ -303,6 +323,9 @@ html,body{
 	
 }
 
+
+/*work ends on grid*/
+
 .VIewMorebtn{
     background-color: #fff;
     border-radius:30px;
@@ -323,18 +346,7 @@ html,body{
 	
 }
 
-.font4{
-	font-size:35px;
-	color:#ADD8E6 ;
-	text-align:center;
-	font-weight:bold;
-	cursor:hand;
-	
-}
-.font4:hover{
-	color:	#FF4500;
-	
-}
+
 
 
 .footer{
@@ -343,6 +355,7 @@ html,body{
 	
 }
 
+     /* social starts*/
 .social ul{
 	 display:flex;
 	 list-style:none;
@@ -405,8 +418,21 @@ html,body{
 .social ul li:nth-child(5) a:hover .fa{
   color:#00AFF0;	
 }
+.socialCenter{
+	text-align:center;
+	margin-top:-40px;
+}
+.sos{
 
+	margin-left:-130px;
+	
+}
+.sos1{
+	text-align:center;
+}
+     /* social ends*/
 
+/* copyright section starts*/
 .Copyright{
 	
 	color:#fff;
@@ -420,3 +446,6 @@ html,body{
 	
 	
 }
+
+
+/* copyright section ends*/
